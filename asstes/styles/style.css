@@ -112,13 +112,7 @@ nav .logo {
 }
 /*----end header section----*/
 /*----start main section----*/
-.development {
-  margin: 50px 100px;
-  padding: 60px 80px;
-  border-radius: 16px;
-  background: rgba(13, 19, 33, 0.02);
-}
-.taitle {
+.title {
   color: #0d1321;
   text-align: center;
   font-size: 28px;
@@ -133,17 +127,6 @@ nav .logo {
   margin-top: 25px;
 }
 
-.development-content {
-  margin-top: 50px;
-  padding: 45px;
-  display: flex;
-  justify-content: space-between;
-  border-radius: 16px;
-  background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-}
-.development-item {
-  /* width: 40%; */
-}
 .item-title {
   color: rgba(13, 19, 33, 0.7);
   font-size: 24px;
@@ -162,5 +145,39 @@ nav .logo {
   opacity: 0.7;
   margin: 15px 0 30px;
   width: 468px;
+}
+/*----development section----*/
+.development {
+  margin: 50px 100px;
+  padding: 60px 80px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+
+.development-content {
+  margin-top: 50px;
+  padding: 45px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+/*----development section----*/
+.inspiration {
+  margin: 0 100px;
+}
+.inspiration-container {
+  padding: 60px 80px;
+}
+.inspiration-source {
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+}
+.inspiration-video {
+  width: 100%;
+  height: 490PX;
+  border-radius: 16PX;
 }
 /*----end main section----*/
