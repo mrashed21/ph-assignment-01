@@ -221,7 +221,6 @@ nav .logo {
   background: rgba(255, 223, 0, 0.05);
 }
 
-
 .target h3 {
   color: #0d1321;
   font-size: 22px;
@@ -242,7 +241,7 @@ nav .logo {
   margin-top: auto;
   align-self: flex-start;
 }
-.target  a {
+.target a {
   color: #0d1321;
   font-size: 16px;
   font-weight: 700;
@@ -338,5 +337,8 @@ nav .logo {
 }
 #social .social-icon ul li a {
   font-size: 25px;
+}
+.fa-github {
+  color: black;
 }
 /*----end footer section----*/
