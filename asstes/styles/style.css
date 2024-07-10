@@ -180,37 +180,36 @@ nav .logo {
   height: 490px;
   border-radius: 16px;
 }
-/*------start terget section------*/
+/*------start target section------*/
 
-.terget {
+.target {
   margin: 100px;
   display: flex;
   flex-direction: column;
   gap: 100px;
 }
 
-.terget-center {
+.target-center {
   width: 760px;
   margin: 0 auto;
 }
-/*------start current terget section------*/
-.current-terget {
+/*------start current target section------*/
+.current-target {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-.terget-items {
+.target-items {
   display: flex;
   justify-content: space-between;
 }
-.terget-item {
+.target-item {
   border-radius: 16px;
   display: flex;
   width: 330px;
   padding: 30px;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 25px;
+  /* gap: 25px; */
 }
 .item-html {
   background: rgba(255, 76, 30, 0.05);
@@ -222,13 +221,15 @@ nav .logo {
   background: rgba(255, 223, 0, 0.05);
 }
 
-.terget .description h3 {
+
+.target h3 {
   color: #0d1321;
   font-size: 22px;
   font-weight: 700;
   line-height: 36px;
+  margin-top: 20px;
 }
-.terget .description p {
+.target p {
   color: #0d1321;
   font-size: 16px;
   font-weight: 400;
@@ -237,8 +238,11 @@ nav .logo {
   margin: 5px 0 20px;
   text-align: justify;
 }
-
-.terget .description a {
+.target-btn {
+  margin-top: auto;
+  align-self: flex-start;
+}
+.target  a {
   color: #0d1321;
   font-size: 16px;
   font-weight: 700;
@@ -251,7 +255,7 @@ nav .logo {
   gap: 20px;
   margin-top: 40px;
 }
-.terget-card {
+.target-card {
   display: flex;
   padding: 30px;
   gap: 32px;
@@ -260,3 +264,79 @@ nav .logo {
   background: #fff;
 }
 /*----end main section----*/
+/*----start footer section----*/
+.need-help-container {
+  width: 1080px;
+  margin: 0 auto;
+}
+.need-help {
+  background-image: url("../images/handshake.jpg");
+  width: 100%;
+  background-size: cover;
+  padding: 64px 48px;
+  text-align: center;
+  border-radius: 16px;
+  margin-bottom: 80px;
+}
+.need-help h1 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.need-help p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 15px 0 25px;
+  opacity: 0.7;
+}
+.need-help input[type="text"] {
+  width: 548px;
+  padding: 19px 20px;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #fff;
+  outline: none;
+  font-size: 16px;
+}
+
+.need-help input[type="text"]::placeholder {
+  color: rgba(13, 19, 33, 0.4);
+}
+
+.need-help input[type="submit"] {
+  width: 120px;
+  padding: 17px 20px;
+  color: #0d1321;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+}
+
+/*social link section*/
+#social {
+  display: flex;
+  background: rgba(13, 19, 33, 0.03);
+  padding: 32px 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+#social .social-title {
+  color: #0d1321;
+  font-size: 20px;
+  font-weight: 500;
+}
+#social .social-icon ul {
+  display: flex;
+  gap: 25px;
+}
+#social .social-icon ul li a {
+  font-size: 25px;
+}
+/*----end footer section----*/
