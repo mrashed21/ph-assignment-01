@@ -151,6 +151,9 @@ nav .logo {
   line-height: 36px;
   width: 390px;
 }
+.item-wdth {
+  width: 477px;
+}
 .item-sub-title {
   color: #0d1321;
   font-size: 16px;
